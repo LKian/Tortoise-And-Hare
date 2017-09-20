@@ -1,0 +1,72 @@
+* {
+	box-sizing: border-box;
+	text-align: center;
+	font-family: arial, sans-serif, helvetica; }
+
+#race h1 {
+	text-align: center; }
+
+.animal  {
+	width: 100px;
+	display: block;
+	position: relative; } 
+
+#tortoise {
+	position: absolute;
+	top: 295px; }
+#hare {
+	position: absolute;
+	top: 410px; }
+
+#path {
+	background: url('img/background.png') center left repeat-x;
+	border-right: 18px dashed #900;
+	height: 500px; }
+
+#scoreboard {
+	width: 75%;
+	margin: 40px auto;
+	border: 3px solid #ccc;
+	background: #222;
+	text-align: center;
+	height: 225px;
+	border-radius: 10px;  }
+
+.raceInfo1, .raceInfo2 {
+	display: inline-block;}
+
+#scoreboard h2 {
+	color: #fff;
+	text-transform: uppercase;
+	padding: 10px 0;
+	border-bottom: 2px solid #fff; }
+
+.raceInfo {
+	font-size: 24px;
+	color: #fff;
+	width: 50%;
+	float: left; }
+
+.raceInfo span {
+	display: block;
+	color: white;
+	font-size: 16px;
+	padding: 10px 25px;  }
+
+#raceInfo1 {
+	color: yellow; }
+#raceInfo2 {
+	color: yellow; }
+
+input[type="button"] {
+	background: #7b2;
+	color: #fff;
+	padding: 10px 25px;
+	border: 1px solid #59d;
+	margin: 25px 5px;
+	font-size: 20px; }
+input#reset {
+	background: yellow;
+	color: #000; }
+
+
